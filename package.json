@@ -1,0 +1,13 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "ყომარ-Bingo Score Tracker",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "postinstall": "cd server && npm install --omit=dev --no-audit --no-fund",
+    "start": "cd server && node server.js"
+  }
+}

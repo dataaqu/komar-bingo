@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#0F1923" />
+  <title>🔒 Admin Panel</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="field-bg"></div>
+
+  <header class="site-header">
+    <h1 class="logo"><span class="ball">⚽</span> ADMIN PANEL</h1>
+    <p class="tagline">ქულების მართვა</p>
+    <span class="admin-badge">🔒 Private</span>
+  </header>
+
+  <nav class="nav">
+    <a href="/">🏆 საჯარო ანგარიში</a>
+    <a href="/admin-data" class="active">⚙️ ადმინი</a>
+  </nav>
+
+  <main class="container">
+    <section id="adminBoard" class="scoreboard">
+      <div class="loading">მონაცემები იტვირთება</div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <footer class="site-footer">
+    <p>⚽ ყომარ-Bingo Admin · 2026</p>
+  </footer>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>
